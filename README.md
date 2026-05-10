@@ -38,6 +38,12 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 ## Featured Repositories
 
+- [DevOps Learning Lab](https://github.com/BenThompsonBTC/devops-learning-lab)  
+  Hands-on lab for CI/CD, Linux, Docker, automation, and operations practice.
+
+- [Python Automation Lab](https://github.com/BenThompsonBTC/python-automation-lab)  
+  Practical Python scripts for IT, reporting, workflow improvement, and DevOps-adjacent automation.
+
 - [COMP10001 Python Teaching Exercises](https://github.com/BenThompsonBTC/comp10001-python-teaching-exercises)  
   Beginner Python examples created for college programming support sessions.
 
@@ -55,4 +61,3 @@ I am using this GitHub to turn real IT experience into public, reviewable projec
 - Documentation-first DevOps learning projects
 
 The goal is simple: build useful, understandable projects that show how I solve operational problems with automation, structure, and clear documentation.
-
