@@ -1,8 +1,10 @@
 # Ben Thompson
 
-IT systems professional focused on automation, endpoint deployment, Microsoft 365 administration, and DevOps fundamentals.
+IT / information systems professional focused on automation, Microsoft 365 administration, endpoint deployment, hybrid identity, and DevOps-style operational improvement.
 
-I currently work in healthcare information systems, where I support hybrid Microsoft environments, Windows 11 deployment work, endpoint management, and operational automation. I am rebuilding this GitHub into a clear public portfolio that shows practical scripting, infrastructure thinking, documentation, and steady growth toward DevOps-focused roles.
+I currently work in healthcare information systems, where I support hybrid Microsoft environments, Windows 11 deployment work, endpoint management, and operational automation. I am building this GitHub into a public portfolio that shows practical scripting, infrastructure thinking, documentation, and steady growth toward DevOps / cloud automation roles.
+
+My strongest work so far has been PowerShell automation for real enterprise workflows: taking messy operational inputs, validating them, planning account and access changes, producing reviewable reports, and reducing repeated manual work for support teams.
 
 ## Professional Focus
 
@@ -19,7 +21,7 @@ I currently work in healthcare information systems, where I support hybrid Micro
 **Project Analyst - Information Systems, Digital Solutions**  
 Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint deployment, and automation.
 
-- Built PowerShell automation for structured onboarding workflows using CSV inputs, Active Directory updates, and downstream ServiceNow process support.
+- Built PowerShell automation for structured learner onboarding workflows using CSV inputs, Active Directory-style account logic, access planning, Exchange/mailbox planning, and downstream ServiceNow-style process support.
 - Developed scripts to capture and restore endpoint state during Windows 11 deployment work, including applications, printers, and device configuration details.
 - Support Exchange, Teams, SharePoint, OneDrive, Entra ID, SCCM, Intune, endpoint deployment, and enterprise troubleshooting across a multi-site environment.
 - Create documentation and operational guidance for repeatable deployment, Microsoft 365, and systems administration workflows.
@@ -38,6 +40,9 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 ## Featured Repositories
 
+- [Enterprise PowerShell Systems](https://github.com/BenThompsonBTC/enterprise-powershell-systems)  
+  Sanitized enterprise PowerShell systems based on real healthcare IT automation work. The first project shows a learner onboarding workflow that coordinates CSV ingest, account lifecycle planning, group membership, Exchange/mailbox planning, ServiceNow-style handoff, notifications, reports, and validation.
+
 - [DevOps Learning Lab](https://github.com/BenThompsonBTC/devops-learning-lab)  
   Hands-on lab for CI/CD, Linux, Docker, automation, and operations practice.
 
@@ -54,10 +59,11 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 I am using this GitHub to turn real IT experience into public, reviewable projects:
 
-- Python automation scripts
-- PowerShell administration tools
-- GitHub Actions and CI/CD examples
+- enterprise PowerShell automation examples
+- Python automation scripts for IT and reporting
+- GitHub Actions and CI/CD validation
 - Docker and Linux practice labs
+- Microsoft 365 / identity / endpoint administration demos using safe mock data
 - Documentation-first DevOps learning projects
 
 The goal is simple: build useful, understandable projects that show how I solve operational problems with automation, structure, and clear documentation.
