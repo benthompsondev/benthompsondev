@@ -40,6 +40,14 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 ## Featured Repositories
 
+- [Ledger Local Finance](https://github.com/BenThompsonBTC/ledger-local-finance)  
+  Open-source local-first personal finance app built with Python, Streamlit,
+  SQLite, Plotly, and GitHub Actions. It imports bank statements, reviews
+  spending, plans monthly cash flow, tracks net worth, and exports privacy-safe
+  read-only context for AI agents. This repo shows practical app structure,
+  CI validation, privacy guardrails, deterministic calculations, and
+  Codex-assisted open-source maintenance.
+
 - [Enterprise PowerShell Systems](https://github.com/BenThompsonBTC/enterprise-powershell-systems)  
   Sanitized enterprise PowerShell systems based on real healthcare IT automation work. The first project shows a learner onboarding workflow that coordinates CSV ingest, account lifecycle planning, group membership, Exchange/mailbox planning, ServiceNow-style handoff, notifications, reports, and validation.
 
@@ -59,6 +67,7 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 I am using this GitHub to turn real IT experience into public, reviewable projects:
 
+- local-first Python apps with privacy, CI, and AI-assisted maintenance guardrails
 - enterprise PowerShell automation examples
 - Python automation scripts for IT and reporting
 - GitHub Actions and CI/CD validation
