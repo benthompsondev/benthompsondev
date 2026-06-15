@@ -1,6 +1,6 @@
 # Ben Thompson
 
-IT / information systems professional focused on automation, Microsoft 365 administration, endpoint deployment, hybrid identity, and DevOps-style operational improvement.
+Healthcare IT professional focused on automation, Microsoft 365 administration, endpoint deployment, hybrid identity, and DevOps-style operational improvement.
 
 I currently work in healthcare information systems, where I support hybrid Microsoft environments, Windows 11 deployment work, endpoint management, and operational automation. I am building this GitHub into a public portfolio that shows practical scripting, infrastructure thinking, documentation, and steady growth toward DevOps / cloud automation roles.
 
@@ -40,27 +40,27 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 ## Featured Repositories
 
-- [Ledger Local Finance](https://github.com/BenThompsonBTC/ledger-local-finance)  
-  Open-source local-first personal finance app built with Python, Streamlit,
-  SQLite, Plotly, and GitHub Actions. It imports bank statements, reviews
-  spending, plans monthly cash flow, tracks net worth, and exports privacy-safe
-  read-only context for AI agents. This repo shows practical app structure,
-  CI validation, privacy guardrails, deterministic calculations, and
-  Codex-assisted open-source maintenance.
-
-- [Enterprise PowerShell Systems](https://github.com/BenThompsonBTC/enterprise-powershell-systems)  
+- [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)  
   Sanitized enterprise PowerShell systems based on real healthcare IT automation work. The first project shows a learner onboarding workflow that coordinates CSV ingest, account lifecycle planning, group membership, Exchange/mailbox planning, ServiceNow-style handoff, notifications, reports, and validation.
 
-- [DevOps Learning Lab](https://github.com/BenThompsonBTC/devops-learning-lab)  
+- [DevOps Learning Lab](https://github.com/benthompsondev/devops-learning-lab)  
   Hands-on lab for CI/CD, Linux, Docker, automation, and operations practice.
 
-- [Python Automation Lab](https://github.com/BenThompsonBTC/python-automation-lab)  
+- [Python Automation Lab](https://github.com/benthompsondev/python-automation-lab)  
   Practical Python scripts for IT, reporting, workflow improvement, and DevOps-adjacent automation.
 
-- [COMP10001 Python Teaching Exercises](https://github.com/BenThompsonBTC/comp10001-python-teaching-exercises)  
+- [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)  
+  Work-in-progress local-first personal finance app built with Python, Streamlit,
+  SQLite, Plotly, and GitHub Actions. It imports bank statements, reviews
+  spending, plans monthly cash flow, tracks net worth, and exports privacy-safe
+  read-only context for AI agents. The public repo shows app structure,
+  CI validation, privacy guardrails, deterministic calculations, and ongoing
+  Codex-assisted maintenance.
+
+- [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)  
   Beginner Python examples created for college programming support sessions.
 
-- [Portfolio Lab](https://github.com/BenThompsonBTC/portfolio-lab)  
+- [Portfolio Lab](https://github.com/benthompsondev/portfolio-lab)  
   Planning hub for portfolio projects, DevOps practice, and GitHub polish.
 
 ## Building Next
