@@ -1,10 +1,10 @@
 # Ben Thompson
 
-Healthcare IT professional focused on automation, Microsoft 365 administration, endpoint deployment, hybrid identity, and DevOps-style operational improvement.
+Healthcare IT professional focused on automation, Microsoft 365 administration, endpoint deployment, hybrid identity, and practical DevOps-style improvement.
 
-I currently work in healthcare information systems, where I support hybrid Microsoft environments, Windows 11 deployment work, endpoint management, and operational automation. I am building this GitHub into a public portfolio that shows practical scripting, infrastructure thinking, documentation, and steady growth toward DevOps / cloud automation roles.
+I currently work in healthcare information systems, where I support hybrid Microsoft environments, Windows 11 deployment work, endpoint management, and operational automation. I am building this GitHub into a public portfolio that shows the kind of work I like doing: useful scripts, clear docs, safe examples, and steady growth toward DevOps and cloud automation.
 
-My strongest work so far has been PowerShell automation for real enterprise workflows: taking messy operational inputs, validating them, planning account and access changes, producing reviewable reports, and reducing repeated manual work for support teams.
+My strongest work so far has been PowerShell automation for real IT workflows: take messy input, validate it, plan account or access work, write reviewable output, and reduce repeated manual steps for support teams.
 
 ## Professional Focus
 
@@ -41,7 +41,7 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 ## Featured Repositories
 
 - [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)  
-  Sanitized enterprise PowerShell systems based on real healthcare IT automation work. The first project shows a learner onboarding workflow that coordinates CSV ingest, account lifecycle planning, group membership, Exchange/mailbox planning, ServiceNow-style handoff, notifications, reports, and validation.
+  Sanitized PowerShell automation based on real IT workflow problems. The first project turns a learner onboarding export into account planning, group membership, Exchange/mailbox planning, handoff files, notification drafts, reports, and validation.
 
 - [DevOps Learning Lab](https://github.com/benthompsondev/devops-learning-lab)  
   Hands-on lab for CI/CD, Linux, Docker, automation, and operations practice.
@@ -51,11 +51,10 @@ Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint de
 
 - [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)  
   Work-in-progress local-first personal finance app built with Python, Streamlit,
-  SQLite, Plotly, and GitHub Actions. It imports bank statements, reviews
-  spending, plans monthly cash flow, tracks net worth, and exports privacy-safe
-  read-only context for AI agents. The public repo shows app structure,
-  CI validation, privacy guardrails, deterministic calculations, and ongoing
-  Codex-assisted maintenance.
+  SQLite, Plotly, and GitHub Actions. It imports statements, reviews spending,
+  plans monthly cash flow, tracks net worth, and keeps AI features read-only.
+  The point is simple: local data stays local, calculations stay deterministic,
+  and the app gives practical answers instead of guessing.
 
 - [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)  
   Beginner Python examples created for college programming support sessions.
@@ -75,4 +74,4 @@ I am using this GitHub to turn real IT experience into public, reviewable projec
 - Microsoft 365 / identity / endpoint administration demos using safe mock data
 - Documentation-first DevOps learning projects
 
-The goal is simple: build useful, understandable projects that show how I solve operational problems with automation, structure, and clear documentation.
+The goal is simple: build useful projects that show how I solve operational problems with automation, structure, testing, and clear documentation.
