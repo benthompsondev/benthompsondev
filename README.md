@@ -21,7 +21,7 @@ My strongest work so far has been PowerShell automation for real IT workflows: t
 **Project Analyst - Information Systems, Digital Solutions**  
 Healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint deployment, and automation.
 
-- Built PowerShell automation for structured learner onboarding workflows using CSV inputs, Active Directory-style account logic, access planning, Exchange/mailbox planning, and downstream ServiceNow-style process support.
+- Built PowerShell automation for structured learner onboarding workflows using CSV inputs, Active Directory-style account logic, access planning, Exchange/mailbox planning, and service desk handoff files.
 - Developed scripts to capture and restore endpoint state during Windows 11 deployment work, including applications, printers, and device configuration details.
 - Support Exchange, Teams, SharePoint, OneDrive, Entra ID, SCCM, Intune, endpoint deployment, and enterprise troubleshooting across a multi-site environment.
 - Create documentation and operational guidance for repeatable deployment, Microsoft 365, and systems administration workflows.
