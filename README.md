@@ -18,25 +18,31 @@ This GitHub is where I'm turning that experience into public, safe, reviewable p
 
 ### [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)
 
-My main portfolio repo. This is where I am collecting sanitized PowerShell systems, scripts, fixes, and automations inspired by real enterprise healthcare IT workflow problems I have worked on.
+My main portfolio repo for sanitized PowerShell systems, scripts, fixes, and automations inspired by enterprise healthcare IT workflows I’ve supported.
 
-The repo is built around public-safe versions of real operational work: messy exports, repeated account tasks, support handoffs, input validation, reporting, logging, and scripts that make a process easier to repeat and trust. Private details are removed and replaced with fake data, safe examples, and clear run steps.
+This repo is built around public-safe versions of operational work: messy exports, repeated account tasks, support handoffs, input validation, reporting, logging, and scripts that make a process easier to repeat and trust. Private details are removed and replaced with fake data, safe examples, and clear run steps.
 
-The current flagship demo takes messy learner/user onboarding input and turns it into a reviewable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and documentation. The useful pattern is input, validation, planned action, reviewable output, and safer handoff.
+The current flagship demo takes learner/user onboarding input and turns it into a reviewable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and documentation.
+
+The useful pattern is the part I care about most: input, validation, planned action, reviewable output, and safer handoff.
 
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-I'm building Ledger as an open-source, local-first finance app for people who want more control over their own financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
+Ledger is an open-source, local-first finance app I’m building in my spare time for people who want more control over their own financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
 
-It is my practical app-structure project: Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions. The app imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps calculations deterministic.
+It is also my practical app-structure project: Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions. The app imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps calculations deterministic.
 
-Right now I am focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into local homelab and agent-assisted workflows while keeping finance data local. Any AI-assisted features are optional, read-only, and guardrailed.
+Right now I’m focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into local homelab and agent-assisted workflows while keeping finance data local.
+
+Any AI-assisted features are optional, read-only, and guardrailed.
 
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 
-Beginner Python examples from my earlier coding and teaching support work as a PASS Leader.
+Beginner Python examples from my earlier coding and teaching support work as a PASS Leader at Mohawk College.
 
 This repo is simpler than the others, but it matters because it shows where I started with programming, how I learned to explain beginner concepts, and how I break problems down for people who are still getting comfortable with code.
+
+I keep it here for anyone starting with Python, and as a small marker of the path from learning the basics to building more practical automation and systems projects.
 
 ## Skills And Tools
 
