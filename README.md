@@ -2,7 +2,9 @@
 
 I work in healthcare IT/systems support, mostly around Microsoft 365, endpoint management, hybrid identity, troubleshooting, and PowerShell automation.
 
-I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with a time-consuming manual workflow: messy exports, repeated account work, unclear handoffs, or too many steps living in someone's head. This GitHub is where I am turning that experience into public, safe, reviewable projects.
+I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with an annoying manual workflow: messy exports, repeated account work, unclear handoffs, or too many steps living in someone’s head.
+
+This GitHub is where I’m turning that experience into public, safe, reviewable projects.
 
 ## What I'm Focused On
 
@@ -18,13 +20,15 @@ I like building small practical tools that make messy operational work easier to
 
 My main portfolio repo for sanitized PowerShell automation based on real IT workflow patterns.
 
-The flagship demo turns messy learner/user onboarding input into a repeatable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and safe mock data. The useful part is the flow: input, validation, planned action, reviewable output, and documentation.
+The flagship demo turns messy learner/user onboarding input into a repeatable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and safe mock data.
+
+The useful part is the shape of the workflow: input, validation, planned action, reviewable output, and documentation.
 
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
 A local-first personal finance app built with Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions.
 
-This is my practical app-structure project. It imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps data local. The calculations are deterministic, and any AI-assisted features are kept read-only and guardrailed.
+This is my practical app-structure project. It imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps data local. The calculations are deterministic, and any AI-assisted features are read-only and guardrailed.
 
 ### [DevOps Learning Lab](https://github.com/benthompsondev/devops-learning-lab)
 
@@ -73,7 +77,7 @@ Education and certification:
 
 ## Building Next
 
-I am using this GitHub to build toward IT automation, automation engineering, DevOps-adjacent systems work, cloud automation, and practical software engineering.
+I’m using this GitHub to build toward IT automation, automation engineering, DevOps-adjacent systems work, cloud automation, and practical software engineering.
 
 Next up:
 
@@ -84,4 +88,4 @@ Next up:
 - Docker, Linux, Azure/cloud, and CI/CD practice
 - safe mock data and privacy-conscious examples for Microsoft 365 / identity / endpoint workflows
 
-The goal is useful work, not flashy demos.
+The goal is useful practical work, not flashy demos.
