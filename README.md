@@ -18,23 +18,25 @@ This GitHub is where I'm turning that experience into public, safe, reviewable p
 
 ### [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)
 
-My main portfolio repo for sanitized PowerShell automation based on real IT workflow patterns.
+My main portfolio repo. This is where I am collecting sanitized PowerShell systems, scripts, fixes, and automations inspired by real enterprise healthcare IT workflow problems I have worked on.
 
-The flagship demo turns messy learner/user onboarding input into a repeatable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and safe mock data.
+The repo is built around public-safe versions of real operational work: messy exports, repeated account tasks, support handoffs, input validation, reporting, logging, and scripts that make a process easier to repeat and trust. Private details are removed and replaced with fake data, safe examples, and clear run steps.
 
-The useful part is the shape of the workflow: input, validation, planned action, reviewable output, and documentation.
+The current flagship demo takes messy learner/user onboarding input and turns it into a reviewable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and documentation. The useful pattern is input, validation, planned action, reviewable output, and safer handoff.
 
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-A local-first personal finance app built with Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions.
+I'm building Ledger as an open-source, local-first finance app for people who want more control over their own financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
 
-This is my practical app-structure project. It imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps data local. The calculations are deterministic, and any AI-assisted features are read-only and guardrailed.
+It is my practical app-structure project: Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions. The app imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps calculations deterministic.
+
+Right now I am focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into local homelab and agent-assisted workflows while keeping finance data local. Any AI-assisted features are optional, read-only, and guardrailed.
 
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 
-Beginner Python examples from programming support sessions.
+Beginner Python examples from my earlier coding and teaching support work as a PASS Leader.
 
-This repo is smaller, but it matters because it shows how I explain technical ideas clearly and break problems down for people still learning.
+This repo is simpler than the others, but it matters because it shows where I started with programming, how I learned to explain beginner concepts, and how I break problems down for people who are still getting comfortable with code.
 
 ## Skills And Tools
 
