@@ -4,7 +4,7 @@ I work in healthcare IT/systems support, mostly around Microsoft 365, endpoint m
 
 I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with an annoying manual workflow: messy exports, repeated account work, unclear handoffs, or too many unnecessary steps slowing everything down.
 
-This GitHub is where I’m turning that experience into public, safe, reviewable projects.
+This GitHub is where I'm turning that experience into public, safe, reviewable projects.
 
 ## What I'm Focused On
 
@@ -30,29 +30,11 @@ A local-first personal finance app built with Python, Streamlit, SQLite, Plotly,
 
 This is my practical app-structure project. It imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps data local. The calculations are deterministic, and any AI-assisted features are read-only and guardrailed.
 
-### [DevOps Learning Lab](https://github.com/benthompsondev/devops-learning-lab)
-
-Hands-on practice for Linux, Docker, CI/CD, GitHub Actions, automation, and operations habits.
-
-This is a learning repo, not a fake finished platform. The goal is to build the DevOps muscles around real checks, repeatable commands, and clear notes.
-
-### [Python Automation Lab](https://github.com/benthompsondev/python-automation-lab)
-
-Practical Python scripts for IT, reporting, workflow cleanup, and automation practice.
-
-This supports my shift from mostly PowerShell into stronger Python habits while staying grounded in useful operations problems.
-
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 
 Beginner Python examples from programming support sessions.
 
 This repo is smaller, but it matters because it shows how I explain technical ideas clearly and break problems down for people still learning.
-
-### [Portfolio Lab](https://github.com/benthompsondev/portfolio-lab)
-
-Planning and polish notes for public projects, repo cleanup, documentation, and DevOps practice.
-
-This is more of a workspace map than a finished project, so I keep it lower priority than the build repos above.
 
 ## Skills And Tools
 
@@ -77,16 +59,15 @@ Education and certification:
 
 ## Building Next
 
-I’m using this GitHub to turn real systems work into public, sanitized projects that show how I solve operational problems with automation, documentation, and safer repeatable workflows.
+I'm using this GitHub to turn real systems work into public, sanitized projects that show how I solve operational problems with automation, documentation, and safer repeatable workflows.
 
 Next up:
 
-* More sanitized systems and scripting projects based on real enterprise healthcare IT problems I have worked around, using fake data, safe examples, and clear run steps
-* Continued improvements to Ledger Local Finance, my local-first open-source finance app, including better imports, validation, reporting, screenshots, tests, and local run checks
-* More practical platforms, scripts, and tools that solve real workflow problems instead of just existing as demo projects
-* GitHub Actions validation, stronger README files, examples, screenshots, and cleaner project structure across the portfolio
-* Docker, Linux, Azure/cloud, CI/CD, and Python automation practice tied to useful projects
-* Public documentation around Hermes, my homelab agentic system model for daily planning, research, automation support, and personal workflow experiments
+- more sanitized systems and scripting projects based on real IT workflow patterns, using fake data, safe examples, and clear run steps
+- continued improvements to Ledger Local Finance, including better imports, validation, reporting, screenshots, tests, and local run checks
+- practical platforms, scripts, and tools that solve real workflow problems instead of just existing as demo projects
+- GitHub Actions validation, stronger README files, examples, screenshots, and cleaner project structure across the portfolio
+- Docker, Linux, Azure/cloud, CI/CD, and Python automation practice tied to useful projects
+- future app and automation projects built around real problems I can explain and maintain
 
 The goal is useful practical work, not flashy demos.
-
