@@ -2,7 +2,7 @@
 
 I work in healthcare IT/systems support, mostly around Microsoft 365, endpoint management, hybrid identity, troubleshooting, and PowerShell automation.
 
-I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with an annoying manual workflow: messy exports, repeated account work, unclear handoffs, or too many steps living in someone’s head.
+I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with an annoying manual workflow: messy exports, repeated account work, unclear handoffs, or too many unnecessary steps slowing everything down.
 
 This GitHub is where I’m turning that experience into public, safe, reviewable projects.
 
