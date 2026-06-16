@@ -77,15 +77,16 @@ Education and certification:
 
 ## Building Next
 
-I’m using this GitHub to build toward IT automation, automation engineering, DevOps-adjacent systems work, cloud automation, and practical software engineering.
+I’m using this GitHub to turn real systems work into public, sanitized projects that show how I solve operational problems with automation, documentation, and safer repeatable workflows.
 
 Next up:
 
-- more sanitized PowerShell automation demos with fake data and clear run steps
-- stronger README files, screenshots, examples, and local checks
-- GitHub Actions validation for portfolio repos
-- Python automation and local-first app structure
-- Docker, Linux, Azure/cloud, and CI/CD practice
-- safe mock data and privacy-conscious examples for Microsoft 365 / identity / endpoint workflows
+* More sanitized systems and scripting projects based on real enterprise healthcare IT problems I have worked around, using fake data, safe examples, and clear run steps
+* Continued improvements to Ledger Local Finance, my local-first open-source finance app, including better imports, validation, reporting, screenshots, tests, and local run checks
+* More practical platforms, scripts, and tools that solve real workflow problems instead of just existing as demo projects
+* GitHub Actions validation, stronger README files, examples, screenshots, and cleaner project structure across the portfolio
+* Docker, Linux, Azure/cloud, CI/CD, and Python automation practice tied to useful projects
+* Public documentation around Hermes, my homelab agentic system model for daily planning, research, automation support, and personal workflow experiments
 
 The goal is useful practical work, not flashy demos.
+
