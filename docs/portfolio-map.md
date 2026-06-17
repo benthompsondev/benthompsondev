@@ -113,7 +113,7 @@ Some repos are intentionally not part of the public portfolio story.
 
 | Repo type | Why it is not featured |
 | --- | --- |
-| Private workspace/control repos | They are for my local agent setup, workspace instructions, and private workflow notes. Useful to me, not useful as public portfolio material. |
+| Private workspace/control repos | They are for my local workspace instructions, automation notes, and private workflow docs. Useful to me, not useful as public portfolio material. |
 | Thin learning-only repos | I removed the old lightweight lab repos because they made the profile harder to understand and did not show enough real work. |
 | Raw work-derived material | Anything copied from real work stays private unless it is sanitized, reviewed, and rebuilt as a public-safe demo. |
 

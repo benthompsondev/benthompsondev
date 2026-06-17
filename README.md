@@ -40,9 +40,9 @@ Ledger is an open-source, local-first finance app I’m building in my spare tim
 
 It is also my practical app-structure project: Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions. The app imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps calculations deterministic.
 
-Right now I’m focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into my local homelab and agent-assisted workflows while keeping finance data local.
+Right now I’m focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into my local homelab and automation workflows while keeping finance data local.
 
-Any AI-assisted features are optional, read-only, and guardrailed.
+Any explanation helpers are optional, read-only, and guardrailed.
 
 This repo is the app side of the portfolio: setup docs, screenshots, demo data, privacy notes, validation checks, and a local-first product idea I can keep improving over time.
 
