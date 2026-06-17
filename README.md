@@ -6,6 +6,8 @@ I like building small practical tools that make messy operational work easier to
 
 This GitHub is where I'm turning that experience into public, safe, reviewable projects.
 
+If you are looking through this quickly, start with the [full portfolio map](docs/portfolio-map.md). It links to the main repos, the PowerShell script index, Ledger setup docs, screenshots, run checks, and the few projects that are actually worth paying attention to first.
+
 ## What I'm Focused On
 
 - PowerShell automation for real IT workflows
