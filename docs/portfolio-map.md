@@ -1,8 +1,8 @@
 # Portfolio Map
 
-This is the main map for my public GitHub.
+This is the starting point for my public GitHub.
 
-If someone only has a few minutes, this page should make it clear what is worth opening, what each repo proves, and where the useful docs, scripts, screenshots, and run checks live.
+If someone only has a few minutes, this page should make it clear what to open first, what each repo is meant to show, and where the useful docs, scripts, screenshots, and run checks live.
 
 My strongest skills right now is practical IT automation: taking disorganized operational work, adding validation and guardrails, and turning it into something repeatable. I also want this page to show the other side of the portfolio my personal projects I am building and my roots: a local-first app project, older Python teaching material, and the path I am building toward with DevOps, cloud, and cleaner software habits.
 
