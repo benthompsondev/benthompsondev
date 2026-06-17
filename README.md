@@ -13,7 +13,7 @@ I am aiming toward automation-heavy DevOps, cloud automation, platform/support a
 | Full portfolio map | [docs/portfolio-map.md](docs/portfolio-map.md) | The best index for everything public on this GitHub |
 | Flagship automation repo | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Sanitized PowerShell systems based on real IT automation work |
 | Script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each script and what problem it solves |
-| Local-open-source finance app project | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Python / Streamlit / SQLite app with screenshots, demo data, and validation |
+| Local-first open-source finance app | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Python / Streamlit / SQLite app with screenshots, demo data, and validation |
 | Python teaching archive | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Earlier Python teaching support and beginner examples |
 
 ## The Short Version
