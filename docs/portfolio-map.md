@@ -12,7 +12,7 @@ My strongest skills right now is practical IT automation: taking disorganized op
 | --- | --- | --- |
 | My best automation work | [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems) | The flagship repo: sanitized PowerShell systems, fake data, run checks, reviewer docs, and GitHub Actions |
 | The fastest script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each demo script and the problem it solves |
-| A practical app project | [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance) | Local-first Python app with Streamlit, SQLite, screenshots, demo data, and validation |
+| My practical open-source project | [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance) | Local-first Python app with Streamlit, SQLite, screenshots, demo data, and validation |
 | My early Python / teaching background | [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Beginner Python exercises from my PASS Leader / teaching support work |
 | The public profile landing page | [benthompsondev](https://github.com/benthompsondev) | Short version of who I am, what I build, and what to open first |
 
@@ -27,17 +27,17 @@ My strongest skills right now is practical IT automation: taking disorganized op
 
 ## Work-Inspired Automation
 
-The PowerShell repo is the main thing I would want a boss, recruiter, or technical reviewer to open first.
+The PowerShell repo is probably the best place to start. It’s where I’m turning the systems, scripts, fixes, and automations I’ve built from real enterprise IT work into public-safe projects with fake data, clear run steps, and no private details.
 
 These are not raw workplace scripts. They are cleaned public demos based on real types of IT work: messy CSVs, account planning, security follow-up, endpoint replacement, messaging migration, project reporting, and code review. Private details are removed and replaced with fake users, fake domains, local files, and simulated actions.
 
 What I want this repo to show:
 
-- I can take a messy operational problem and turn it into a repeatable workflow.
+- I can take a disorganized operational problem and turn it into a repeatable workflow.
 - I care about validation before action.
-- I write outputs another admin or project team can review.
+- I write outputs and systems that another admin or project team can review.
 - I think about logs, handoff files, state tracking, and rollback paths.
-- I can sanitize work-inspired automation without flattening it into a toy script.
+- I can sanitize work-inspired automation without flattening it too much.
 - I can use GitHub Actions and demo checks so the repo is not just a pile of scripts.
 
 ### PowerShell Systems
@@ -107,24 +107,14 @@ What it shows:
 - teaching and explanation
 - early coding background before the heavier automation work
 
-## Private Or Not Featured
-
-Some repos are intentionally not part of the public portfolio story.
-
-| Repo type | Why it is not featured |
-| --- | --- |
-| Private workspace/control repos | They are for my local workspace instructions, automation notes, and private workflow docs. Useful to me, not useful as public portfolio material. |
-| Thin learning-only repos | I removed the old lightweight lab repos because they made the profile harder to understand and did not show enough real work. |
-| Raw work-derived material | Anything copied from real work stays private unless it is sanitized, reviewed, and rebuilt as a public-safe demo. |
-
 ## What I Am Building Toward
 
 The direction is pretty simple:
 
 - keep expanding the PowerShell repo with useful sanitized systems
 - keep improving Ledger as the main local-first app project
-- add future projects only when they solve a real problem
+- add future projects only when they solve real problems and are practically useful to others
 - keep docs, checks, screenshots, and examples strong enough that someone else can follow them
 - keep GitHub focused on work I can actually explain in an interview or to another technical person
 
-The goal is not to have the most repos. The goal is to have a clear public trail of useful work.
+The goal is not to have the most repos. The goal is to have a clear public trail of the useful work I've done.
