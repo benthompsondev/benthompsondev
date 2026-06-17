@@ -26,6 +26,12 @@ The current flagship demo takes learner/user onboarding input and turns it into 
 
 The useful pattern is the part I care about most: input, validation, planned action, reviewable output, and safer handoff.
 
+Good places to start:
+
+- [script index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md)
+- [reviewer guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md)
+- [public release checklist](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/public-release-checklist.md)
+
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
 Ledger is an open-source, local-first finance app I’m building in my spare time for people who want more control over their own financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
@@ -35,6 +41,8 @@ It is also my practical app-structure project: Python, Streamlit, SQLite, Plotly
 Right now I’m focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into my local homelab and agent-assisted workflows while keeping finance data local.
 
 Any AI-assisted features are optional, read-only, and guardrailed.
+
+This repo is the app side of the portfolio: setup docs, screenshots, demo data, privacy notes, validation checks, and a local-first product idea I can keep improving over time.
 
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 

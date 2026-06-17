@@ -1,8 +1,8 @@
-# Claude Code Instructions
+# Maintainer Tooling Notes
 
-This repo's rules apply to both Codex and Claude Code. The single source of truth is:
+This repo's rules live in:
 
 @AGENTS.md
 
-Do not duplicate rules here - edit AGENTS.md so both agents stay in sync. Workspace-wide rules: `C:\Users\Ben Thompson\Documents\Projects\codex-home` (see docs/dual-agent-playbook.md there).
+Do not duplicate rules here. Edit AGENTS.md so future tool-assisted sessions stay consistent. Workspace-wide rules live in `C:\Users\Ben Thompson\Documents\Projects\codex-home`.
 

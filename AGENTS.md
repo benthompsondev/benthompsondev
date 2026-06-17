@@ -1,4 +1,4 @@
-# GitHub Profile - Codex Instructions
+# GitHub Profile - Maintainer Notes
 
 ## Repo Purpose
 
@@ -13,5 +13,4 @@ Prioritize a clear, credible DevOps and IT automation story:
 
 Keep the profile professional and public-safe. Do not include private phone numbers, home address, workplace-sensitive details, internal project names, or anything copied directly from a private resume unless Ben explicitly approves it.
 
-When updating this repo, keep the README concise, recruiter-readable, and aligned with Ben's current career target.
-
+When updating this repo, keep the README concise, reviewer-readable, and aligned with Ben's current career target.
