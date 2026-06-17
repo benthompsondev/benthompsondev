@@ -1,10 +1,10 @@
 # Ben Thompson
 
-I work in healthcare information systems and systems support. The part of the job I enjoy most is taking messy operational work and turning it into something safer, repeatable, and easier for another person to trust.
+I work in healthcare information systems and systems support. The part of the job I enjoy most is taking disorganized operational work and turning it into something safer, repeatable, and easier for another person to trust.
 
-Most of my strongest work is PowerShell automation around Microsoft 365, Active Directory / Entra ID, Exchange, SCCM, Intune, endpoint support, onboarding, migrations, reporting, and code review. I am building this GitHub as a public-safe version of that story: real workflow patterns, fake data, readable docs, validation checks, and projects I can explain without hiding behind buzzwords.
+Most of my strongest work is PowerShell automation around Microsoft 365, Active Directory / Entra ID, Exchange, SCCM, Intune, endpoint support, onboarding, migrations, reporting, and code review. I am building this GitHub as a public-safe version of that story: real workflow patterns, fake data, readable docs, validation checks, and projects that are useful enough to explain plainly.
 
-I am aiming toward automation-heavy DevOps, cloud automation, platform/support automation, and practical software engineering work. Titles matter less to me than useful systems, clean habits, and work that solves real problems.
+I am aiming toward automation-heavy DevOps, cloud automation, platform/support automation, and practical software engineering work. Titles matter less to me than useful systems, good habits, accurate testing and work that solves real problems.
 
 ## Start Here
 
@@ -18,14 +18,14 @@ I am aiming toward automation-heavy DevOps, cloud automation, platform/support a
 
 ## The Short Version
 
-I like building practical tools for the annoying middle of IT work:
+I like building practical tools for the parts of IT work that are too messy to ignore and too repetitive to keep doing by hand:
 
-- messy CSVs that need validation before anyone trusts them
+- Disorganized CSVs that need validation before anyone trusts them
 - repeated account, mailbox, access, and endpoint tasks
 - migration projects where the same checks happen again and again
 - reports and logs that project teams can actually use
 - scripts that need guardrails before they should be run by someone else
-- documentation that makes a process repeatable instead of tribal knowledge
+- documentation that makes a process repeatable instead of guarded knowledge
 
 The pattern I keep coming back to is simple:
 
@@ -55,7 +55,7 @@ These are public-safe summaries of the kind of work behind the repos. Private wo
 
 This is my main portfolio repo.
 
-It is built from sanitized versions of real workflow patterns: onboarding, password remediation, Windows 11 device replacement, Chrome-to-Edge bookmark migration, workforce identity migration, O365 migration support, smaller troubleshooting utilities, and code review examples.
+It is built from sanitized versions of real workflow solutions I built in a large healthcare enterprise environment: onboarding, password remediation, Windows 11 device replacement, Chrome-to-Edge bookmark migration, workforce identity migration, O365 migration support, smaller troubleshooting utilities, and code review examples.
 
 What I want this repo to prove:
 
@@ -74,7 +74,7 @@ Good places to start:
 
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-Ledger is my open-source, local-first finance app. It is built for people who want more control over their financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
+Ledger Finance is my open-source, local-first finance app. It is built for people who want more control over their financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
 
 It is also the app-structure side of my portfolio: Python, Streamlit, SQLite, Plotly, statement imports, screenshots, demo data, local run checks, privacy notes, and GitHub Actions.
 
@@ -115,7 +115,7 @@ Education and certification:
 - Bachelor of Sports Business Management, Honours, Brock University
 - CompTIA A+
 
-I also maintain a small Linux homelab because I like learning by building real things, breaking them safely, and making the setup better the next time.
+I keep a Linux/networking homelab to learn by building real systems, breaking them safely, and improving the setup each time.
 
 ## What I Am Building Toward
 
@@ -126,6 +126,6 @@ I want this GitHub to become a clean public trail of the kind of work I want mor
 - useful PowerShell and Python projects
 - local-first apps and tools
 - CI checks, testing, docs, and privacy-safe examples
-- projects that are easy for a boss, teammate, recruiter, or future me to understand
+- projects that are easy for a teammate, recruiter, or anyone interested in tech to understand
 
-The goal is not to have the most repos. The goal is to show useful work that is organized, tested, and real enough to talk through.
+The goal is not to collect the most repos. The goal is to show useful work that is organized, tested, and real enough to explain clearly.
