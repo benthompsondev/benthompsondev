@@ -1,72 +1,112 @@
 # Ben Thompson
 
-I work in healthcare IT/systems support, mostly around Microsoft 365, endpoint management, hybrid identity, troubleshooting, and PowerShell automation.
+I work in healthcare information systems and systems support. The part of the job I enjoy most is taking messy operational work and turning it into something safer, repeatable, and easier for another person to trust.
 
-I like building small practical tools that make messy operational work easier to repeat, test, and trust. Most of my best projects start with an annoying manual workflow: messy exports, repeated account work, unclear handoffs, or too many unnecessary steps slowing everything down.
+Most of my strongest work is PowerShell automation around Microsoft 365, Active Directory / Entra ID, Exchange, SCCM, Intune, endpoint support, onboarding, migrations, reporting, and code review. I am building this GitHub as a public-safe version of that story: real workflow patterns, fake data, readable docs, validation checks, and projects I can explain without hiding behind buzzwords.
 
-This GitHub is where I'm turning that experience into public, safe, reviewable projects.
+I am aiming toward automation-heavy DevOps, cloud automation, platform/support automation, and practical software engineering work. Titles matter less to me than useful systems, clean habits, and work that solves real problems.
 
-If you are looking through this quickly, start with the [full portfolio map](docs/portfolio-map.md). It links to the main repos, the PowerShell script index, Ledger setup docs, screenshots, run checks, and the few projects that are actually worth paying attention to first.
+## Start Here
 
-## What I'm Focused On
+| If you only open one thing | Link | Why it matters |
+| --- | --- | --- |
+| Full portfolio map | [docs/portfolio-map.md](docs/portfolio-map.md) | The best index for everything public on this GitHub |
+| Flagship automation repo | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Sanitized PowerShell systems based on real IT automation work |
+| Script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each script and what problem it solves |
+| Local-first app project | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Python / Streamlit / SQLite app with screenshots, demo data, and validation |
+| Python teaching archive | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Earlier Python teaching support and beginner examples |
 
-- PowerShell automation for real IT workflows
-- Microsoft 365, Exchange Online, Teams, SharePoint, OneDrive, Entra ID, and Active Directory
-- SCCM, Intune, Windows deployment, endpoint support, and troubleshooting
-- Python automation, local-first apps, GitHub Actions, Docker, Linux, and Azure/cloud learning
-- Validation, logging, handoff files, safe demo data, and documentation someone else could actually follow
+## The Short Version
+
+I like building practical tools for the annoying middle of IT work:
+
+- messy CSVs that need validation before anyone trusts them
+- repeated account, mailbox, access, and endpoint tasks
+- migration projects where the same checks happen again and again
+- reports and logs that project teams can actually use
+- scripts that need guardrails before they should be run by someone else
+- documentation that makes a process repeatable instead of tribal knowledge
+
+The pattern I keep coming back to is simple:
+
+```text
+input -> validate -> plan -> review -> act or simulate -> log -> verify
+```
+
+That is the thread through most of my public work.
+
+## What I Have Built And Worked On
+
+These are public-safe summaries of the kind of work behind the repos. Private workplace details, raw exports, internal names, and real data are intentionally not published.
+
+| Area | What I worked on | Public artifact |
+| --- | --- | --- |
+| Account and access automation | Built PowerShell workflows for structured onboarding input, account planning, access planning, mailbox planning, handoff files, and logs | [Learner Onboarding Automation](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-healthcare-systems/learner-onboarding-automation) |
+| Security follow-up automation | Turned weak-password follow-up into a staged process with reminder planning, state tracking, directory re-checks, and audit output | [Password Remediation Workflow](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-healthcare-systems/password-remediation-workflow) |
+| Endpoint migration | Wrote automation around a Windows 11 hardware refresh project so old-device state could be captured, restored, tracked, and reviewed across many replacements | [Workstation Migration State Toolkit](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-endpoint-systems/workstation-migration-state-toolkit) |
+| Browser standardization | Built a Chrome-to-Edge bookmark migration flow with backups, merge behavior, reporting, and a recovery path so users did not lose bookmarks during a browser move | [Browser Bookmark Migration Utility](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-endpoint-systems/browser-bookmark-migration) |
+| O365 / Exchange migration support | Helped support a staged move from on-prem mail systems to O365, including user waves, shared mailbox readiness, license checks, public folder planning, and mailbox repair work | [O365 Migration Support Toolkit](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-messaging-systems/o365-migration-readiness-toolkit) |
+| Workforce identity migration | Built planning/reporting scripts around messy project data, existing accounts, re-enable paths, project OU tracking, mailbox/license planning, and status exports | [Workforce Platform Identity Migration](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-identity-systems/workforce-platform-identity-migration) |
+| Code review and team support | Reviewed scripts from other technical teams, tightened risky pieces, added validation/run notes, and explained changes in plain language before they were used | [Support And Code Review Utilities](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-support-systems/enterprise-support-and-code-review-utilities) |
 
 ## Featured Repositories
 
 ### [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)
 
-My main portfolio repo for sanitized PowerShell systems, scripts, fixes, and automations inspired by enterprise healthcare IT workflows I’ve supported.
+This is my main portfolio repo.
 
-This repo is built around public-safe versions of operational work: messy exports, repeated account tasks, support handoffs, input validation, reporting, logging, and scripts that make a process easier to repeat and trust. Private details are removed and replaced with fake data, safe examples, and clear run steps.
+It is built from sanitized versions of real workflow patterns: onboarding, password remediation, Windows 11 device replacement, Chrome-to-Edge bookmark migration, workforce identity migration, O365 migration support, smaller troubleshooting utilities, and code review examples.
 
-The current flagship demo takes learner/user onboarding input and turns it into a reviewable planning workflow: CSV validation, account and access planning, group and mailbox planning, reports, logs, handoff files, and documentation.
+What I want this repo to prove:
 
-The useful pattern is the part I care about most: input, validation, planned action, reviewable output, and safer handoff.
+- I can turn a manual process into a repeatable system.
+- I care about validation, logs, state, rollback paths, and reviewable output.
+- I can protect private data while still preserving the useful architecture.
+- I can write docs and demo checks so another person can understand and run the work.
+- I can review other people’s scripts and help make them safer before they hit production.
 
 Good places to start:
 
-- [script index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md)
-- [reviewer guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md)
-- [public release checklist](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/public-release-checklist.md)
+- [Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md)
+- [Reviewer Guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md)
+- [Public Release Checklist](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/public-release-checklist.md)
+- [PowerShell demo checks](https://github.com/benthompsondev/enterprise-powershell-systems/actions/workflows/powershell-demo-check.yml)
 
 ### [Ledger Local Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-Ledger is an open-source, local-first finance app I’m building in my spare time for people who want more control over their own financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
+Ledger is my open-source, local-first finance app. It is built for people who want more control over their financial data without subscriptions, cloud lock-in, or handing everything to a third-party service.
 
-It is also my practical app-structure project: Python, Streamlit, SQLite, Plotly, screenshots, demo data, local run checks, and GitHub Actions. The app imports statements, reviews spending, plans monthly cash flow, tracks net worth, and keeps calculations deterministic.
+It is also the app-structure side of my portfolio: Python, Streamlit, SQLite, Plotly, statement imports, screenshots, demo data, local run checks, privacy notes, and GitHub Actions.
 
-Right now I’m focused on making it understandable, customizable, and easy to run locally. Longer term, I want it to fit into my local homelab and automation workflows while keeping finance data local.
+Good places to start:
 
-Any explanation helpers are optional, read-only, and guardrailed.
-
-This repo is the app side of the portfolio: setup docs, screenshots, demo data, privacy notes, validation checks, and a local-first product idea I can keep improving over time.
+- [Getting Started](https://github.com/benthompsondev/ledger-local-finance/blob/main/docs/GETTING_STARTED.md)
+- [Screenshots](https://github.com/benthompsondev/ledger-local-finance/tree/main/docs/screenshots)
+- [Security Notes](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md)
+- [Ledger validation](https://github.com/benthompsondev/ledger-local-finance/actions/workflows/ci.yml)
 
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 
-Beginner Python examples from my earlier coding and teaching support work as a PASS Leader at Mohawk College.
+This is older and simpler, but it belongs here.
 
-This repo is simpler than the others, but it matters because it shows where I started with programming, how I learned to explain beginner concepts, and how I break problems down for people who are still getting comfortable with code.
-
-I keep it here for anyone starting with Python, and as a small marker of the path from learning the basics to building more practical automation and systems projects.
+It comes from my Python PASS Leader / teaching support work. It shows where the coding side started: breaking down programming concepts for newer learners, writing beginner examples, and explaining code in a way people can follow.
 
 ## Skills And Tools
 
-- **Automation:** PowerShell, Python, CSV workflows, reporting, validation, logging, and repeatable scripts
-- **Microsoft/admin:** Microsoft 365, Exchange Online, Teams, SharePoint, OneDrive, Entra ID / Azure AD, Active Directory
-- **Endpoint/support:** SCCM, Intune, Windows deployment, endpoint troubleshooting, documentation, and support workflows
-- **Growing into:** GitHub Actions, Docker, Linux, Azure/cloud, testing, packaging, and cleaner software structure
-- **Project habits:** safe demo data, privacy-aware examples, readable READMEs, small checks before bigger changes
+| Area | Tools and experience |
+| --- | --- |
+| Automation | PowerShell, Python, CSV workflows, validation, reporting, logging, repeatable scripts |
+| Microsoft / identity | Microsoft 365, Exchange Online, Teams, SharePoint, OneDrive, Entra ID / Azure AD, Active Directory |
+| Endpoint / systems | SCCM, Intune, Windows deployment, Windows Server, Group Policy, endpoint troubleshooting |
+| Operations support | migrations, onboarding, mailbox work, access reviews, documentation, vendor/team coordination |
+| Growing into | GitHub Actions, Docker, Linux, Azure/cloud, testing, packaging, cleaner software architecture |
+| Project habits | fake demo data, privacy reviews, readable READMEs, local checks, small reversible changes |
 
-## Background Snapshot
+## Background
 
-I currently work in a healthcare IT environment supporting Microsoft 365, hybrid identity, endpoint deployment, automation, documentation, and enterprise troubleshooting.
+My current work is in a large healthcare IT / information systems environment, mostly around Microsoft 365, hybrid identity, endpoint deployment, automation, documentation, and enterprise troubleshooting.
 
-My earlier IT background includes desktop support, networking, security software deployment, imaging, print services, licensing, and end-user support. I also worked as a Python PASS Leader at Mohawk College, creating beginner programming materials and helping students learn core programming concepts.
+Before that, I worked across desktop support, networking, security software deployment, imaging, print services, licensing, and end-user support. I also worked as a Python PASS Leader at Mohawk College, where I created beginner programming material and helped students get comfortable with code.
 
 Education and certification:
 
@@ -75,17 +115,17 @@ Education and certification:
 - Bachelor of Sports Business Management, Honours, Brock University
 - CompTIA A+
 
-## Building Next
+I also maintain a small Linux homelab because I like learning by building real things, breaking them safely, and making the setup better the next time.
 
-I'm using this GitHub to turn real systems work into public, sanitized projects that show how I solve operational problems with automation, documentation, and safer repeatable workflows.
+## What I Am Building Toward
 
-Next up:
+I want this GitHub to become a clean public trail of the kind of work I want more of:
 
-- more sanitized systems and scripting projects based on real IT workflow patterns, using fake data, safe examples, and clear run steps
-- continued improvements to Ledger Local Finance, including better imports, validation, reporting, screenshots, tests, and local run checks
-- practical platforms, scripts, and tools that solve real workflow problems instead of just existing as demo projects
-- GitHub Actions validation, stronger README files, examples, screenshots, and cleaner project structure across the portfolio
-- Docker, Linux, Azure/cloud, CI/CD, and Python automation practice tied to useful projects
-- future app and automation projects built around real problems I can explain and maintain
+- practical IT and systems automation
+- cloud and DevOps-adjacent workflows
+- useful PowerShell and Python projects
+- local-first apps and tools
+- CI checks, testing, docs, and privacy-safe examples
+- projects that are easy for a boss, teammate, recruiter, or future me to understand
 
-The goal is useful practical work, not flashy demos.
+The goal is not to have the most repos. The goal is to show useful work that is organized, tested, and real enough to talk through.
