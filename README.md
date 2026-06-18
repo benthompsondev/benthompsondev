@@ -10,6 +10,7 @@ I am aiming toward automation-heavy DevOps, cloud automation, platform/support a
 
 | If you only open one thing | Link | Why it matters |
 | --- | --- | --- |
+| Resume | [View resume (PDF)](resume/Ben-Thompson-Resume.pdf) | Two-page overview of my experience, automation work, technical skills, and current direction |
 | Full portfolio map | [docs/portfolio-map.md](docs/portfolio-map.md) | The best index for everything public on this GitHub |
 | Flagship automation repo | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Sanitized PowerShell systems based on real IT automation work |
 | Script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each script and what problem it solves |
