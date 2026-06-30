@@ -24,6 +24,7 @@ My strongest skills right now is practical IT automation: taking disorganized op
 | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Flagship automation portfolio | [Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md), [Reviewer Guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md), [Actions](https://github.com/benthompsondev/enterprise-powershell-systems/actions) | PowerShell automation for account workflows, security follow-up, endpoint migrations, O365 migration support, reporting, validation, and code review |
 | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Open-source personal app | [Getting Started](https://github.com/benthompsondev/ledger-local-finance/blob/main/docs/GETTING_STARTED.md), [Screenshots](https://github.com/benthompsondev/ledger-local-finance/tree/main/docs/screenshots), [Security Notes](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/ledger-local-finance/actions) | Python app structure, local-first data handling, Streamlit UI, SQLite, demo data, and a product idea I can keep improving |
 | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Learning / teaching archive | [README](https://github.com/benthompsondev/comp10001-python-teaching-exercises/blob/main/README.md) | Earlier Python fundamentals, teaching support, and breaking code down for newer learners |
+| [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | AI / coding-course work | [README index](https://github.com/benthompsondev/ai-coding-labs/blob/main/README.md), [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | AI-assisted coding work: course projects, agent experiments, and fixes from learning tools like Claude Code |
 | [benthompsondev](https://github.com/benthompsondev/benthompsondev) | Profile repo | [Profile README](https://github.com/benthompsondev), [Resume](https://github.com/benthompsondev/benthompsondev/blob/main/resume/Ben-Thompson-Resume.pdf), [This Map](https://github.com/benthompsondev/benthompsondev/blob/main/docs/portfolio-map.md) | The front door for the portfolio |
 
 ## Work-Inspired Automation
@@ -107,6 +108,27 @@ What it shows:
 - simple examples for newer learners
 - teaching and explanation
 - early coding background before the heavier automation work
+
+## AI Coding And Course Work
+
+This is where I keep AI-assisted coding work: projects from courses, agent
+experiments, and fixes I make while learning tools like Claude Code. It's a
+learning lane, not a flagship — the point is a clear trail of what I built and
+what each thing taught me.
+
+[ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) is the index.
+Standalone projects stay in their own repos and are linked from there.
+
+| Project | Link | What it shows |
+| --- | --- | --- |
+| AI coding labs index | [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | The index for course and AI-assisted coding work |
+| RAG Chatbot course fix | [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Fixed fork of the DeepLearning.AI "Claude Code" course starter — diagnosed and fixed the query endpoint failing on current Claude models (retired model id + a broken tool-use loop), with a README that explains the bugs and the fix |
+
+What this lane is meant to show:
+
+- I can debug an unfamiliar codebase and find the real cause, not just the symptom
+- I understand how agent tool-use loops work and why they break
+- I leave the fix behind, documented, for the next person hitting the same wall
 
 ## What I Am Building Toward
 
