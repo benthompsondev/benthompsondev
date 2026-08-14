@@ -4,3 +4,6 @@ Desktop.ini
 
 # Local code intelligence indexes
 .codegraph/
+
+# Claude Code local pointer
+CLAUDE.md
