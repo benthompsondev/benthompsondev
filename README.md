@@ -1,6 +1,6 @@
 # Ben Thompson
 
-**@benthompsondev** · Cambridge, Ontario · [benthompsondev.github.io](https://benthompsondev.github.io/)
+**@benthompsondev** · Cambridge, Ontario · [benthompsondev.github.io](https://benthompsondev.github.io/) · [LinkedIn](https://www.linkedin.com/in/benjaminthompson1993/)
 
 Healthcare IT systems, PowerShell and Python automation, DevOps growth, and practical software projects.
 
