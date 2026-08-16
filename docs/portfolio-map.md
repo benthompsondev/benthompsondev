@@ -17,6 +17,7 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | My local-first finance app | [Northstar Ledger](https://benthompsondev.github.io/ledger-local-finance/) | Native Windows app with a product tour, installer, statement imports, planning, net worth, tests, and local SQLite storage |
 | My early Python / teaching background | [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Beginner Python exercises from my PASS Leader / teaching support work |
 | The public profile landing page | [benthompsondev](https://github.com/benthompsondev) | Short version of who I am, what I build, and what to open first |
+| My personal site outside GitHub | [benthompsondev.github.io](https://benthompsondev.github.io/) | One page tying the name, the handle, and the projects together |
 
 ## Public Repo Index
 
@@ -29,6 +30,7 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Learning / teaching archive | [README](https://github.com/benthompsondev/comp10001-python-teaching-exercises/blob/main/README.md) | Earlier Python fundamentals, teaching support, and breaking code down for newer learners |
 | [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | AI / coding-course work | [README index](https://github.com/benthompsondev/ai-coding-labs/blob/main/README.md), [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Coding I do while working through AI courses — debugging code I didn't write, fixing what's broken, and writing up what I learned |
 | [benthompsondev](https://github.com/benthompsondev/benthompsondev) | Profile repo | [Profile README](https://github.com/benthompsondev), [This Map](https://github.com/benthompsondev/benthompsondev/blob/main/docs/portfolio-map.md) | The front door for the portfolio |
+| [benthompsondev.github.io](https://github.com/benthompsondev/benthompsondev.github.io) | Personal site | [Live site](https://benthompsondev.github.io/) | One static page, no build step, no dependencies. Semantic HTML, structured data, and the metadata that makes the site findable |
 
 ## Work-Inspired Automation
 
