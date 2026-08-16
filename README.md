@@ -1,5 +1,9 @@
 # Ben Thompson
 
+**@benthompsondev** · Cambridge, Ontario · [benthompsondev.github.io](https://benthompsondev.github.io/)
+
+Healthcare IT systems, PowerShell and Python automation, DevOps growth, and practical software projects.
+
 I work in healthcare information systems and systems support. The part of the job I enjoy most is taking disorganized operational work and turning it into something safer, repeatable, and easier for another person to trust.
 
 Most of my strongest work is PowerShell automation around Microsoft 365, Active Directory / Entra ID, Exchange, SCCM, Intune, endpoint support, onboarding, migrations, reporting, and code review. I am building this GitHub as a public-safe version of that story: real workflow patterns, fake data, readable docs, validation checks, and projects that are useful enough to explain plainly.
@@ -14,6 +18,7 @@ I am aiming toward automation-heavy DevOps, cloud automation, platform/support a
 
 | If you only open one thing | Link | Why it matters |
 | --- | --- | --- |
+| Personal site | [benthompsondev.github.io](https://benthompsondev.github.io/) | Short version of who I am and what I have built |
 | Full portfolio map | [docs/portfolio-map.md](docs/portfolio-map.md) | The best index for everything public on this GitHub |
 | Flagship automation repo | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Sanitized PowerShell systems based on real IT automation work |
 | Shipped app (Windows, Linux, web demo) | [CloakScan](https://github.com/benthompsondev/cloakscan) | Local-first text redactor with a live browser demo, Windows and Linux installers, React/TypeScript UI, Rust/Tauri shell, tests, and CI |
