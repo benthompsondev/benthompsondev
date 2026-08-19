@@ -10,7 +10,7 @@ Most of my strongest work is PowerShell automation around Microsoft 365, Active 
 
 I am aiming toward automation-heavy DevOps, cloud automation, platform/support automation, and practical software engineering work. Titles matter less to me than useful systems, good habits, accurate testing, and work that solves real problems.
 
-> ⬇ **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe)**: private, local-first personal finance. Install one .exe, import a bank statement, and see where your money went. No account, no subscription, and your finances never leave your computer. **[See it first](https://benthompsondev.github.io/ledger-local-finance/)**
+> ⬇ **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)**: private, local-first personal finance. Install one .exe, import a bank statement, and see where your money went. No account, no subscription, and your finances never leave your computer. **[See it first](https://benthompsondev.github.io/ledger-local-finance/)**
 
 > ▶ **[Try CloakScan in your browser](https://benthompsondev.github.io/cloakscan/)** — a local-first text redactor that cleans secrets and personal data out of text before you share it. Nothing to install, nothing leaves your machine.
 
@@ -145,7 +145,7 @@ wants none of those. It is the project I use myself, most weeks.
 
 **Get started in three steps**
 
-1. **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe)** and run the installer. ([All releases](https://github.com/benthompsondev/ledger-local-finance/releases/latest) if you would rather pick.)
+1. **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)** and run the installer. ([All releases](https://github.com/benthompsondev/ledger-local-finance/releases/latest) if you would rather pick.)
 2. Open SignalSpace. There is no sign-up, so it opens straight into the app.
 3. Go to **Add Data** and import a CSV your bank exports. Home fills in from
    there.

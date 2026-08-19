@@ -155,7 +155,7 @@ canonical Safe to Spend result across the app.
 
 | Area | Link | What it shows |
 | --- | --- | --- |
-| Download | [SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe) | One installer, 3.1.1, no account needed |
+| Download | [SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe) | One installer, 3.1.1, no account needed |
 | Product tour | [Open the tour](https://benthompsondev.github.io/ledger-local-finance/) | Current native screens using generated transactions |
 | All releases | [Release history](https://github.com/benthompsondev/ledger-local-finance/releases/latest) | Release notes and SHA-256 checksums |
 | Main repo | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Project overview, architecture, source, and run commands |
