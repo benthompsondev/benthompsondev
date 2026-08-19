@@ -143,18 +143,24 @@ wants none of those. It is the project I use myself, most weeks.
 - Backups, restore, and a full CSV export are built in, so your data is never
   trapped in the app.
 
-**Get started in three steps**
+**Getting it running**
 
-1. **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)** and run the installer. ([All releases](https://github.com/benthompsondev/ledger-local-finance/releases/latest) if you would rather pick.)
-2. Open SignalSpace. There is no sign-up, so it opens straight into the app.
-3. Go to **Add Data** and import a CSV your bank exports. Home fills in from
-   there.
+1. **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)** and run the installer.
+2. If Windows shows a blue **"Windows protected your PC"** box, click
+   **More info**, then **Run anyway**. (See below for why.)
+3. Open SignalSpace. There is no sign-up, so it opens straight into the app
+   and tells you what to do next:
 
-Windows will probably show a blue **"Windows protected your PC"** box the first
-time, because I have not bought an Authenticode certificate for the installer.
-Click **More info → Run anyway**. Every release also publishes a SHA-256
-checksum you can check against. (Separately, in-app updates *are*
-cryptographically signed and refuse anything that fails the signature.)
+![The Getting started checklist a new SignalSpace profile opens on](https://github.com/benthompsondev/ledger-local-finance/raw/main/site/assets/getting-started.png)
+
+4. Import a **CSV** your bank or credit card exports. Home and Insights fill
+   in from there.
+
+**About that warning.** SignalSpace has no Authenticode publisher certificate,
+which is the paid signing that stops SmartScreen appearing. Every release
+publishes a SHA-256 checksum you can verify the download against. Updates are
+a separate matter: in-app update downloads *are* cryptographically signed, and
+SignalSpace refuses to install one whose signature does not match its own key.
 
 Bank formats vary a lot. SignalSpace reads common CSV exports and detects the
 date and amount conventions per file, but it deliberately refuses a file it
