@@ -10,21 +10,21 @@ Most of my strongest work is PowerShell automation around Microsoft 365, Active 
 
 I am aiming toward automation-heavy DevOps, cloud automation, platform/support automation, and practical software engineering work. Titles matter less to me than useful systems, good habits, accurate testing, and work that solves real problems.
 
-> ▶ **[Try CloakScan in your browser](https://benthompsondev.github.io/cloakscan/)** — a local-first text redactor that cleans secrets and personal data out of text before you share it. Nothing to install, nothing leaves your machine.
+> ⬇ **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe)**: private, local-first personal finance. Install one .exe, import a bank statement, and see where your money went. No account, no subscription, and your finances never leave your computer. **[See it first](https://benthompsondev.github.io/ledger-local-finance/)**
 
-> **[Tour Northstar Ledger](https://benthompsondev.github.io/ledger-local-finance/)** - a local-first Windows finance app I built to turn bank statements into a monthly check-in, spending comparisons, a plan, and net-worth tracking.
+> ▶ **[Try CloakScan in your browser](https://benthompsondev.github.io/cloakscan/)** — a local-first text redactor that cleans secrets and personal data out of text before you share it. Nothing to install, nothing leaves your machine.
 
 ## Start Here
 
 | If you only open one thing | Link | Why it matters |
 | --- | --- | --- |
+| Shipped Windows app anyone can use | [SignalSpace Finance](https://benthompsondev.github.io/ledger-local-finance/) | Private, local-first personal finance. One installer, no account, no subscription, database stays on your machine. Tauri/Rust shell, React and TypeScript interface, packaged Python finance engine, SQLite, close to 1,400 tests |
 | Personal site | [benthompsondev.github.io](https://benthompsondev.github.io/) | Short version of who I am and what I have built |
 | Full portfolio map | [docs/portfolio-map.md](docs/portfolio-map.md) | The best index for everything public on this GitHub |
 | Flagship automation repo | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Sanitized PowerShell systems based on real IT automation work |
 | Shipped app (Windows, Linux, web demo) | [CloakScan](https://github.com/benthompsondev/cloakscan) | Local-first text redactor with a live browser demo, Windows and Linux installers, React/TypeScript UI, Rust/Tauri shell, tests, and CI |
 | Deployed event web app | [Wedding 50/50 Draw Platform](https://github.com/benthompsondev/wedding-50-50) | React and TypeScript site connected to a private Google Workspace workflow, with live totals, tests, and GitHub Pages deployment |
 | Script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each script and what problem it solves |
-| Local-first Windows finance app | [Northstar Ledger](https://benthompsondev.github.io/ledger-local-finance/) | Native Tauri desktop app with a packaged Python engine, React interface, SQLite, statement imports, 1,000-plus tests, and a Windows installer |
 | Python teaching archive | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Earlier Python teaching support and beginner examples |
 | AI coding & course labs | [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | Course projects, agent experiments, and bug fixes in relation to AI automation and learning  |
 
@@ -62,7 +62,7 @@ These are public-safe summaries of the kind of work behind the repos. Private wo
 | Workforce identity migration | Built planning/reporting scripts around messy project data, existing accounts, re-enable paths, project OU tracking, mailbox/license planning, and status exports | [Workforce Platform Identity Migration](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-identity-systems/workforce-platform-identity-migration) |
 | Code review and team support | Reviewed scripts from other technical teams, tightened risky pieces, added validation/run notes, and explained changes in plain language before they were used | [Support And Code Review Utilities](https://github.com/benthompsondev/enterprise-powershell-systems/tree/main/enterprise-support-systems/enterprise-support-and-code-review-utilities) |
 | Local-first privacy tooling | Built and packaged a text redactor for Windows and Linux (plus a live browser demo) that finds sensitive details in text, supports reusable custom detection profiles, and keeps scan content local | [CloakScan](https://github.com/benthompsondev/cloakscan) |
-| Local-first personal finance | Built and packaged a native Windows app that imports bank statements, preserves transaction signs, compares spending fairly, plans the month, and keeps the database local | [Northstar Ledger](https://benthompsondev.github.io/ledger-local-finance/) |
+| Local-first personal finance | Built and shipped a native Windows app that imports bank statements, preserves transaction signs, compares spending fairly, plans the month, isolates each household member's finances in its own database, and keeps everything on the machine | [SignalSpace Finance](https://benthompsondev.github.io/ledger-local-finance/) |
 | Event workflow automation | Built a real wedding draw app that connects a mobile-friendly participant site to private Google Sheets operations, payment reconciliation, confirmation emails, and printable physical draw slips | [Wedding 50/50 Draw Platform](https://github.com/benthompsondev/wedding-50-50) |
 
 ## Featured Repositories
@@ -120,31 +120,108 @@ Good places to start:
 - [Source code](https://github.com/benthompsondev/wedding-50-50)
 - [GitHub Actions](https://github.com/benthompsondev/wedding-50-50/actions)
 
-### [Northstar Ledger](https://github.com/benthompsondev/ledger-local-finance)
+### [SignalSpace Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-Northstar Ledger is my local-first personal finance app for Windows. It imports
-bank and credit-card statements, keeps the source amount signs, separates real
-spending from transfers and card payments, and turns the result into a monthly
-check-in, plan, category comparisons, and recorded net-worth trend.
+**Private, local-first personal finance.** A Windows app that turns your own
+bank and credit-card statements into a straight answer about where the money
+went, without handing your transaction history to anyone.
 
-I built it because I wanted the useful part of a finance app without giving a
-cloud service my complete transaction history. The shipping app is a Tauri
-desktop shell with a React and TypeScript interface, a packaged Python finance
-engine, and a local SQLite database. Finance calculations happen in Python, not
-in the charts, and imports refuse ambiguous date or amount formats instead of
-guessing.
+![SignalSpace Finance Home screen, shown with synthetic demo data](https://github.com/benthompsondev/ledger-local-finance/raw/main/site/assets/home.png)
 
-Good places to start:
+I built it because every budgeting tool I tried wanted an account, a
+subscription, and a copy of my finances on someone else's server. This one
+wants none of those. It is the project I use myself, most weeks.
 
-- [Take the product tour](https://benthompsondev.github.io/ledger-local-finance/) - current native screens with synthetic data
-- [Download the Windows beta](https://github.com/benthompsondev/ledger-local-finance/releases/latest)
-- [Read the source and setup guide](https://github.com/benthompsondev/ledger-local-finance)
-- [Review the privacy model](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md)
-- [See the validation workflow](https://github.com/benthompsondev/ledger-local-finance/actions/workflows/ci.yml)
+**Why you might want it**
 
-It is still a public beta. The installer is unsigned, updates are manual, and
-unfamiliar bank exports may need mapping. Optional AI support is read-only,
-off by default, and not involved in the finance math.
+- No account and no sign-in. There is nothing to register for.
+- No subscription and no service charge from me.
+- Your finance database is a file on your computer, and the calculations run
+  there too.
+- Separate profiles keep two people in a household completely apart. Each
+  profile is its own database, not a filter over a shared one.
+- Backups, restore, and a full CSV export are built in, so your data is never
+  trapped in the app.
+
+**Get started in three steps**
+
+1. **[Download SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe)** and run the installer. ([All releases](https://github.com/benthompsondev/ledger-local-finance/releases/latest) if you would rather pick.)
+2. Open SignalSpace. There is no sign-up, so it opens straight into the app.
+3. Go to **Add Data** and import a CSV your bank exports. Home fills in from
+   there.
+
+Windows will probably show a blue **"Windows protected your PC"** box the first
+time, because I have not bought an Authenticode certificate for the installer.
+Click **More info → Run anyway**. Every release also publishes a SHA-256
+checksum you can check against. (Separately, in-app updates *are*
+cryptographically signed and refuse anything that fails the signature.)
+
+Bank formats vary a lot. SignalSpace reads common CSV exports and detects the
+date and amount conventions per file, but it deliberately refuses a file it
+cannot read confidently rather than guessing at your numbers. Some exports will
+need a manual column mapping, and some will not work at all.
+
+**What it does once your data is in**
+
+| Screen | What it answers |
+| --- | --- |
+| Home | Where am I right now, and roughly what is safe to spend |
+| Insights | What changed, and which patterns are worth knowing about |
+| Plan | What this month looks like once bills and savings come out |
+| Transactions | The underlying rows, so you can check and correct anything |
+
+**About the optional AI**
+
+AI is **off by default and entirely optional**. Every figure on every screen
+is calculated locally whether it is on or not. Turn it on and it explains
+findings SignalSpace already worked out. If you enable it, only the data you
+select for that question goes to the provider *you* configure, using *your* API
+key, and that provider may bill you for it. You can also point it at a model
+running on your own machine, in which case nothing leaves at all.
+
+The only other network activity in the whole app is an update check that runs
+when you press the button in Settings. There is no telemetry and nothing about
+your finances is synced anywhere.
+
+<details>
+<summary><b>The technical layer</b>: architecture, testing, and packaging</summary>
+
+**Stack:** React · TypeScript · Rust/Tauri 2 · Python · SQLite · GitHub Actions
+
+- **Tauri 2 desktop shell (Rust)** wrapping a React and TypeScript interface,
+  talking to a **packaged Python finance engine** over stdin/stdout. One
+  short-lived engine process per request, so a crash cannot corrupt a session.
+- **Deterministic finance semantics.** The signed amount, direction and
+  transaction type are decided in one module, and cash-flow rules live there
+  rather than in the charts. There is exactly one Safe to Spend calculation and
+  every screen reads it.
+- **Imports fail closed.** A statement file has one date format, one decimal
+  convention and one column layout; they are detected once per file and a
+  contradictory file is refused. Silently importing hundredfold amounts is the
+  worst thing a finance app can do.
+- **Multi-profile isolation by directory, not by filter.** Each profile owns its
+  data directory and therefore its own SQLite database, backups and exports. A
+  profile that is not open is not opened, so there is no `WHERE` clause to
+  forget. Covered by a dedicated isolation suite including path-escape and
+  cross-profile leakage tests.
+- **Privacy boundary is explicit.** Finance math makes no network calls at all.
+  The optional AI path is the only outbound request besides a user-triggered
+  update check, and what it may send is a stored, previewable setting.
+- **Close to 1,400 tests**, mostly engine-level integration tests asserting real
+  financial outcomes rather than units, plus frontend and Rust command-registry
+  tests, all run in CI.
+- **Native packaging and a signed updater.** NSIS installer, per-user install,
+  upgrade-in-place that preserves the database, and an updater that verifies a
+  signature before it will install anything.
+
+| Area | Link |
+| --- | --- |
+| Source and setup | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) |
+| Privacy model | [SECURITY.md](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md) |
+| Release validation | [GitHub Actions](https://github.com/benthompsondev/ledger-local-finance/actions/workflows/ci.yml) |
+| Changelog | [CHANGELOG.md](https://github.com/benthompsondev/ledger-local-finance/blob/main/CHANGELOG.md) |
+
+</details>
 
 ### [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises)
 

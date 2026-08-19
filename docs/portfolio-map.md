@@ -14,7 +14,7 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | A complete desktop app I can ship | [CloakScan](https://github.com/benthompsondev/cloakscan) | Local-first privacy tool with React, TypeScript, Rust/Tauri packaging, a one-file Windows installer, tests, and CI |
 | A real event workflow built end to end | [Wedding 50/50 Draw Platform](https://github.com/benthompsondev/wedding-50-50) | Responsive React app connected to Google Apps Script and a private Google Sheets workflow, with live totals and automated deployment |
 | The fastest script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each demo script and the problem it solves |
-| My local-first finance app | [Northstar Ledger](https://benthompsondev.github.io/ledger-local-finance/) | Native Windows app with a product tour, installer, statement imports, planning, net worth, tests, and local SQLite storage |
+| My local-first finance app | [SignalSpace Finance](https://benthompsondev.github.io/ledger-local-finance/) | Windows app anyone can install and use: no account, no subscription, database stays on the machine, separate profiles per person, statement imports, planning, and a product tour |
 | My early Python / teaching background | [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Beginner Python exercises from my PASS Leader / teaching support work |
 | The public profile landing page | [benthompsondev](https://github.com/benthompsondev) | Short version of who I am, what I build, and what to open first |
 | My personal site outside GitHub | [benthompsondev.github.io](https://benthompsondev.github.io/) | One page tying the name, the handle, and the projects together |
@@ -26,7 +26,7 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Flagship automation portfolio | [Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md), [Reviewer Guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md), [Actions](https://github.com/benthompsondev/enterprise-powershell-systems/actions) | PowerShell automation for account workflows, security follow-up, endpoint migrations, O365 migration support, reporting, validation, and code review |
 | [cloakscan](https://github.com/benthompsondev/cloakscan) | Local-first privacy tool | [Windows release](https://github.com/benthompsondev/cloakscan/releases/latest), [Screenshots](https://github.com/benthompsondev/cloakscan/tree/main/docs/screenshots), [Security](https://github.com/benthompsondev/cloakscan/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/cloakscan/actions) | React and TypeScript app structure, privacy-focused design, Rust/Tauri desktop packaging, automated tests, and a one-file Windows installer |
 | [wedding-50-50](https://github.com/benthompsondev/wedding-50-50) | Deployed event web app | [Live site](https://benthompsondev.github.io/wedding-50-50/), [Source](https://github.com/benthompsondev/wedding-50-50), [Actions](https://github.com/benthompsondev/wedding-50-50/actions) | React and TypeScript frontend, Google Workspace automation, private operational data, aggregate-only public totals, tests, and GitHub Pages deployment |
-| [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Local-first Windows finance app | [Product tour](https://benthompsondev.github.io/ledger-local-finance/), [Windows release](https://github.com/benthompsondev/ledger-local-finance/releases/latest), [Security Notes](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/ledger-local-finance/actions) | React and TypeScript interface, Rust/Tauri packaging, packaged Python finance engine, SQLite, statement-import safeguards, tests, and release validation |
+| [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | SignalSpace Finance, a local-first Windows finance app | [Product tour](https://benthompsondev.github.io/ledger-local-finance/), [Windows release](https://github.com/benthompsondev/ledger-local-finance/releases/latest), [Security Notes](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/ledger-local-finance/actions) | React and TypeScript interface, Rust/Tauri packaging, packaged Python finance engine, SQLite, statement-import safeguards, tests, and release validation |
 | [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Learning / teaching archive | [README](https://github.com/benthompsondev/comp10001-python-teaching-exercises/blob/main/README.md) | Earlier Python fundamentals, teaching support, and breaking code down for newer learners |
 | [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | AI / coding-course work | [README index](https://github.com/benthompsondev/ai-coding-labs/blob/main/README.md), [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Coding I do while working through AI courses — debugging code I didn't write, fixing what's broken, and writing up what I learned |
 | [benthompsondev](https://github.com/benthompsondev/benthompsondev) | Profile repo | [Profile README](https://github.com/benthompsondev), [This Map](https://github.com/benthompsondev/benthompsondev/blob/main/docs/portfolio-map.md) | The front door for the portfolio |
@@ -135,10 +135,16 @@ This is a real deployed system that reduces manual record keeping and connects t
 
 **Stack:** React · TypeScript · Google Apps Script · Google Sheets · GitHub Actions · GitHub Pages
 
-### Northstar Ledger
+### SignalSpace Finance
 
-[Northstar Ledger](https://github.com/benthompsondev/ledger-local-finance) is a
-local-first personal finance app for Windows.
+[SignalSpace Finance](https://github.com/benthompsondev/ledger-local-finance) is a
+local-first personal finance app for Windows, currently at 3.1.1.
+
+For someone who just wants to use it: download one installer, run it,
+and import a bank statement. There is no account, no sign-in and no
+subscription, and the finance database is a file on your own machine.
+Separate profiles let two people in a household keep their finances
+completely apart.
 
 It turns bank and credit-card exports into a monthly check-in without sending
 the database to a finance service. The desktop app uses React and TypeScript in
@@ -149,20 +155,22 @@ canonical Safe to Spend result across the app.
 
 | Area | Link | What it shows |
 | --- | --- | --- |
+| Download | [SignalSpace Finance for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/download/v3.1.1/SignalSpaceFinance_3.1.1_x64-setup.exe) | One installer, 3.1.1, no account needed |
 | Product tour | [Open the tour](https://benthompsondev.github.io/ledger-local-finance/) | Current native screens using generated transactions |
-| Download | [Latest Windows release](https://github.com/benthompsondev/ledger-local-finance/releases/latest) | Installer, release notes, and SHA-256 checksum |
+| All releases | [Release history](https://github.com/benthompsondev/ledger-local-finance/releases/latest) | Release notes and SHA-256 checksums |
 | Main repo | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | Project overview, architecture, source, and run commands |
 | Security notes | [SECURITY.md](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md) | Privacy boundaries and what should stay local |
 | Validation | [Actions](https://github.com/benthompsondev/ledger-local-finance/actions) | Checks that run against the app |
 
-What Ledger is meant to show:
+What SignalSpace is meant to show:
 
 - a multi-language desktop app with clear boundaries between UI and finance math
 - bank-neutral CSV detection that fails closed instead of guessing
 - SQLite-backed local data, backups, and migrations
 - React charts and native Windows packaging
 - synthetic demo data, public screenshots, and release validation
-- privacy-first design with optional read-only AI kept separate
+- multi-profile isolation by directory, so a profile that is not open is not opened
+- privacy-first design with optional read-only AI, off by default and never part of the finance math
 - a project I can keep improving without turning it into a cloud service
 
 ## Learning And Teaching
@@ -209,7 +217,7 @@ What this lane is meant to show:
 The direction is pretty simple:
 
 - keep expanding the PowerShell repo with useful sanitized systems
-- keep improving CloakScan and Ledger as practical local-first app projects
+- keep improving CloakScan and SignalSpace Finance as practical local-first app projects
 - add future projects only when they solve real problems and are practically useful to others
 - keep docs, checks, screenshots, and examples strong enough that someone else can follow them
 - keep GitHub focused on work I can actually explain in an interview or to another technical person
