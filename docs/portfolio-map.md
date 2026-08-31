@@ -15,7 +15,7 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | A real event workflow built end to end | [Wedding 50/50 Draw Platform](https://github.com/benthompsondev/wedding-50-50) | Responsive React app connected to Google Apps Script and a private Google Sheets workflow, with live totals and automated deployment |
 | The fastest script-by-script map | [PowerShell Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md) | Direct links to each demo script and the problem it solves |
 | My local-first finance app | [SignalSpace Finance](https://benthompsondev.github.io/ledger-local-finance/) | Windows app anyone can install and use: no account, no subscription, database stays on the machine, separate profiles per person, statement imports, planning, and a product tour |
-| My early Python / teaching background | [COMP10001 Python Teaching Exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Beginner Python exercises from my PASS Leader / teaching support work |
+| A tool I am building right now | [UsageLoop](https://github.com/benthompsondev/usageloop) | Windows app that tracks whether a Codex five-hour limit window is really counting down, and can start the next one. Local-first, no API key |
 | The public profile landing page | [benthompsondev](https://github.com/benthompsondev) | Short version of who I am, what I build, and what to open first |
 | My personal site outside GitHub | [benthompsondev.github.io](https://benthompsondev.github.io/) | One page tying the name, the handle, and the projects together |
 
@@ -25,12 +25,13 @@ My strongest skill right now is practical IT automation: taking disorganized ope
 | --- | --- | --- | --- |
 | [enterprise-powershell-systems](https://github.com/benthompsondev/enterprise-powershell-systems) | Flagship automation portfolio | [Script Index](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/script-index.md), [Reviewer Guide](https://github.com/benthompsondev/enterprise-powershell-systems/blob/main/docs/reviewer-guide.md), [Actions](https://github.com/benthompsondev/enterprise-powershell-systems/actions) | PowerShell automation for account workflows, security follow-up, endpoint migrations, O365 migration support, reporting, validation, and code review |
 | [cloakscan](https://github.com/benthompsondev/cloakscan) | Local-first privacy tool | [Windows release](https://github.com/benthompsondev/cloakscan/releases/latest), [Screenshots](https://github.com/benthompsondev/cloakscan/tree/main/docs/screenshots), [Security](https://github.com/benthompsondev/cloakscan/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/cloakscan/actions) | React and TypeScript app structure, privacy-focused design, Rust/Tauri desktop packaging, automated tests, and a one-file Windows installer |
-| [wedding-50-50](https://github.com/benthompsondev/wedding-50-50) | Deployed event web app | [Live site](https://benthompsondev.github.io/wedding-50-50/), [Source](https://github.com/benthompsondev/wedding-50-50), [Actions](https://github.com/benthompsondev/wedding-50-50/actions) | React and TypeScript frontend, Google Workspace automation, private operational data, aggregate-only public totals, tests, and GitHub Pages deployment |
+| [wedding-50-50](https://github.com/benthompsondev/wedding-50-50) | Web: deployed event app | [Live site](https://benthompsondev.github.io/wedding-50-50/), [Source](https://github.com/benthompsondev/wedding-50-50), [Actions](https://github.com/benthompsondev/wedding-50-50/actions) | React and TypeScript frontend, Google Workspace automation, private operational data, aggregate-only public totals, tests, and GitHub Pages deployment |
 | [ledger-local-finance](https://github.com/benthompsondev/ledger-local-finance) | SignalSpace Finance, a local-first Windows finance app | [Product tour](https://benthompsondev.github.io/ledger-local-finance/), [Windows release](https://github.com/benthompsondev/ledger-local-finance/releases/latest), [Security Notes](https://github.com/benthompsondev/ledger-local-finance/blob/main/SECURITY.md), [Actions](https://github.com/benthompsondev/ledger-local-finance/actions) | React and TypeScript interface, Rust/Tauri packaging, packaged Python finance engine, SQLite, statement-import safeguards, tests, and release validation |
-| [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Learning / teaching archive | [README](https://github.com/benthompsondev/comp10001-python-teaching-exercises/blob/main/README.md) | Earlier Python fundamentals, teaching support, and breaking code down for newer learners |
-| [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | AI / coding-course work | [README index](https://github.com/benthompsondev/ai-coding-labs/blob/main/README.md), [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Coding I do while working through AI courses — debugging code I didn't write, fixing what's broken, and writing up what I learned |
+| [usageloop](https://github.com/benthompsondev/usageloop) | UsageLoop, a Codex limit-window tracker for Windows | [Releases](https://github.com/benthompsondev/usageloop/releases/latest), [Project spec](https://github.com/benthompsondev/usageloop/blob/main/PROJECT_SPEC.md) | PySide6 desktop app and CLI, local JSON-RPC to the Codex app-server, evidence-based classification before any action, and packaging with a checksum-gated updater. Active development |
+| [comp10001-python-teaching-exercises](https://github.com/benthompsondev/comp10001-python-teaching-exercises) | Archived: teaching material | [README](https://github.com/benthompsondev/comp10001-python-teaching-exercises/blob/main/README.md) | Earlier Python fundamentals, teaching support, and breaking code down for newer learners |
+| [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | Archived: AI course work | [README index](https://github.com/benthompsondev/ai-coding-labs/blob/main/README.md), [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Coding I do while working through AI courses. I debug code I didn't write, fixing what's broken, and writing up what I learned |
 | [benthompsondev](https://github.com/benthompsondev/benthompsondev) | Profile repo | [Profile README](https://github.com/benthompsondev), [This Map](https://github.com/benthompsondev/benthompsondev/blob/main/docs/portfolio-map.md) | The front door for the portfolio |
-| [benthompsondev.github.io](https://github.com/benthompsondev/benthompsondev.github.io) | Personal site | [Live site](https://benthompsondev.github.io/) | One static page, no build step, no dependencies. Semantic HTML, structured data, and the metadata that makes the site findable |
+| [benthompsondev.github.io](https://github.com/benthompsondev/benthompsondev.github.io) | Web: personal site | [Live site](https://benthompsondev.github.io/) | One static page, no build step, no dependencies. Semantic HTML, structured data, and the metadata that makes the site findable |
 
 ## Work-Inspired Automation
 
@@ -173,9 +174,24 @@ What SignalSpace is meant to show:
 - privacy-first design with optional read-only AI, off by default and never part of the finance math
 - a project I can keep improving without turning it into a cloud service
 
-## Learning And Teaching
+### UsageLoop
 
-This section is for older learning and teaching material. It is not the main portfolio lane, but it helps explain where the coding side started.
+[UsageLoop](https://github.com/benthompsondev/usageloop) is a small Windows app for Codex subscribers. It answers one question I kept guessing at: is my five-hour limit window actually counting down right now, or is the clock not running yet?
+
+It reads the local `codex app-server` over JSON-RPC, identifies the five-hour and weekly windows by their real duration rather than by name, and takes several samples before it will call the state anything. If the evidence is thin it reports UNKNOWN instead of guessing. When automation is on, it can start the next window with one minimal guarded request, and it never retries a request that may already have been sent.
+
+What it shows:
+
+- reading a live local protocol and classifying evidence instead of trusting one timestamp
+- guardrails that fail closed: reservations, a weekly-usage check, and a capability probe before any action
+- a PySide6 desktop app plus a CLI sharing one core
+- Windows packaging with an installer and a checksum-gated updater
+
+This one is still in active development, so the README is the current source of truth.
+
+## Archived
+
+These repos are archived and read-only. They are older learning material rather than current work, and they stay public because they explain where the coding side started.
 
 ### COMP10001 Python Teaching Exercises
 
@@ -190,11 +206,11 @@ What it shows:
 - teaching and explanation
 - early coding background before the heavier automation work
 
-## AI Coding And Course Work
+### AI Coding And Course Work
 
 This is the coding I do while working through AI courses and figuring out how these
 tools actually work. It usually starts with something in the course material that
-doesn't run — I dig into why, fix it, and write down what I learned. It's a learning
+doesn't run, so I dig into why, fix it, and write down what I learned. It's a learning
 lane, not a flagship, but it shows I can debug code I didn't write and leave it
 better than I found it.
 
@@ -204,7 +220,7 @@ Standalone projects stay in their own repos and are linked from there.
 | Project | Link | What it shows |
 | --- | --- | --- |
 | AI coding labs index | [ai-coding-labs](https://github.com/benthompsondev/ai-coding-labs) | The index for course and AI-assisted coding work |
-| RAG Chatbot course fix | [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Fixed fork of the DeepLearning.AI "Claude Code" course starter — diagnosed and fixed the query endpoint failing on current Claude models (retired model id + a broken tool-use loop), with a README that explains the bugs and the fix |
+| RAG Chatbot course fix | [ragchatbot-course-fix](https://github.com/benthompsondev/ragchatbot-course-fix) | Fixed fork of the DeepLearning.AI "Claude Code" course starter. Diagnosed and fixed the query endpoint failing on current Claude models (retired model id + a broken tool-use loop), with a README that explains the bugs and the fix |
 
 What this lane is meant to show:
 
