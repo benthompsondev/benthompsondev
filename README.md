@@ -16,11 +16,15 @@ utilities that keep private data on the machine they run on.
 · [View project](https://benthompsondev.github.io/usageloop/)
 · [Report a problem](https://github.com/benthompsondev/usageloop/issues/new?template=bug_report.yml)
 
-**Keep your Codex 5-hour reset clock moving while you’re away.**
+**Plan when your Codex day starts.**
 
-Tracks the 5-hour and weekly limits on Windows and can start the normal next
-window after the current one resets. Local-first: no API key, telemetry, cloud
-account, or scraping. It does not add quota or bypass limits.
+Your 5-hour window only begins when you actually use Codex, so a window that
+ends overnight leaves the next reset sitting idle until you come back.
+UsageLoop starts it on a schedule you set: one time, separate weekday and
+weekend times, or a different time for every day. It keeps windows rolling
+through the day and pauses overnight. Local-first: no API key, telemetry, or
+cloud account. It does not add quota or bypass limits. Windows, with a Linux
+beta in testing.
 
 ### [CloakScan](https://github.com/benthompsondev/cloakscan)
 
