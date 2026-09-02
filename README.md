@@ -1,8 +1,8 @@
 # Ben Thompson
 
-Healthcare IT systems specialist in Cambridge, Ontario. I automate the messy,
-repetitive parts of enterprise IT with PowerShell and Python, and I build
-local-first desktop apps that keep your data on your own machine.
+Healthcare IT systems specialist in Cambridge, Ontario. I turn messy operational
+work into repeatable PowerShell and Python automation, and I build local-first
+utilities that keep private data on the machine they run on.
 
 [Website](https://benthompsondev.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/benjaminthompson1993/) ·
@@ -10,15 +10,17 @@ local-first desktop apps that keep your data on your own machine.
 
 ## Things worth your time
 
-### [SignalSpace Finance](https://github.com/benthompsondev/ledger-local-finance)
+### [UsageLoop for Codex](https://github.com/benthompsondev/usageloop)
 
-[Download for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)
-· [See it first](https://benthompsondev.github.io/ledger-local-finance/)
+[Download for Windows](https://github.com/benthompsondev/usageloop/releases/latest/download/UsageLoop-Setup.exe)
+· [View project](https://benthompsondev.github.io/usageloop/)
+· [Report a problem](https://github.com/benthompsondev/usageloop/issues/new?template=bug_report.yml)
 
-Private personal finance. Import your own bank statements and get a straight
-answer about where the money went. No account, no subscription, and the database
-is a file on your computer. Tauri and Rust shell, React and TypeScript
-interface, packaged Python finance engine, SQLite, close to 1,400 tests.
+**Keep your Codex 5-hour reset clock moving while you’re away.**
+
+Tracks the 5-hour and weekly limits on Windows and can start the normal next
+window after the current one resets. Local-first: no API key, telemetry, cloud
+account, or scraping. It does not add quota or bypass limits.
 
 ### [CloakScan](https://github.com/benthompsondev/cloakscan)
 
@@ -30,13 +32,15 @@ prompts before you share them. No backend and no account. The part I use most is
 the PowerShell-aware Portfolio-code mode: it swaps organization-specific terms
 for readable generic ones, so sanitized code is still worth reading.
 
-### [UsageLoop](https://github.com/benthompsondev/usageloop)
+### [SignalSpace Finance](https://github.com/benthompsondev/ledger-local-finance)
 
-[Releases](https://github.com/benthompsondev/usageloop/releases/latest)
+[Download for Windows](https://github.com/benthompsondev/ledger-local-finance/releases/latest/download/SignalSpaceFinance-setup.exe)
+· [See it first](https://benthompsondev.github.io/ledger-local-finance/)
 
-Shows whether your Codex five-hour limit window is actually counting down, and
-can start the next one for you. Local-first, no API key, nothing scraped. Still
-in active development.
+Private personal finance. Import your own bank statements and get a straight
+answer about where the money went. No account, no subscription, and the database
+is a file on your computer. Tauri and Rust shell, React and TypeScript
+interface, packaged Python finance engine, SQLite, close to 1,400 tests.
 
 ### [Enterprise PowerShell Systems](https://github.com/benthompsondev/enterprise-powershell-systems)
 
