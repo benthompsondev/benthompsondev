@@ -23,8 +23,7 @@ ends overnight leaves the next reset sitting idle until you come back.
 UsageLoop starts it on a schedule you set: one time, separate weekday and
 weekend times, or a different time for every day. It keeps windows rolling
 through the day and pauses overnight. Local-first: no API key, telemetry, or
-cloud account. It does not add quota or bypass limits. Windows, with a Linux
-beta in testing.
+cloud account. It does not add quota or bypass limits. Windows and Linux.
 
 ### [CloakScan](https://github.com/benthompsondev/cloakscan)
 
@@ -84,3 +83,7 @@ older teaching and course work.
 
 Questions about any of it, or want to talk shop?
 **[Find me on LinkedIn](https://www.linkedin.com/in/benjaminthompson1993/).**
+
+Everything here is free and MIT. If something I built saved you time, you can
+[sponsor the work](https://github.com/sponsors/benthompsondev); it goes toward the
+Codex and Claude subscriptions I use to build and maintain it.
